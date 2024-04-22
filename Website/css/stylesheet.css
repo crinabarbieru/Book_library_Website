@@ -1,0 +1,671 @@
+body{
+    background-color: #779669;
+    font-family: 'Alkatra';
+    margin: 0;
+}
+
+
+/*======HEADER ELEMENTS=======*/
+/*============================
+==============================
+============================== */
+
+.header_container{
+    z-index:1000;
+    position: sticky;
+    top: 0;
+    margin-top: 0;
+    width: 100%;
+    min-height: 6em;
+    background-color: #536949ed;
+}
+.menu_container{
+    background-color: transparent;
+    float: right;
+    width:40%;
+    height: 31px;
+    padding: 25px 0;
+    /*margin:auto;*/
+    text-align: center;
+    overflow: hidden;
+}
+.menu_container a{
+    color: #bfd8a6;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 27px;
+    font-family: 'Alkatra';
+
+}
+#menu_item{
+    color: #bfd8a6;
+    padding: 10px;
+    text-decoration: none;
+
+}
+#hover_menu_item{
+    color: #bfd8a6;
+    padding: 10px;
+    text-decoration: none;
+
+}
+#it{
+    font-size: 27px;
+    font-family: 'Alkatra';
+}
+
+#it:hover{
+    color: #adc0a5;
+}
+.logo_container{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    position: absolute;
+    width:45%;
+    height: 100%;
+    float:left;
+    padding: 5px;
+}
+#header_logo{
+    color: #bfd8a6;
+}
+.logo_container h1{
+    color:#bfd8a6;
+    font-size: 35px;
+}
+
+/*======PROMO ELEMENTS=======*/
+/*============================
+==============================
+============================== */
+
+.promo_container{
+
+   background-color: #bfd8a6e1;
+   display: flex;
+   flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+   margin: auto;
+   width: 90%;
+   height: 600px;
+   border-radius: 10%;
+    
+}
+.promo_left{
+    width: 50%;
+    float: left;
+    height: 100%;
+}
+.promo_right{
+    
+    width: 50%;
+    float: right;
+    height: 100%;
+}
+.promo_title{
+    padding: 40px 0;
+}
+.promo_title #pl1{
+    font-size: 60px;
+    float: center;
+    padding: 10px;
+    margin-top: 60px;
+    margin-left: 100px;
+    margin-bottom: 0px;
+    color: #7a563e;
+}   
+.promo_title #pl11{
+    font-size: 60px;
+    float: center;
+    padding: 10px;
+    margin-left: 150px;
+    margin-bottom: 0px;
+    color: #7a563e;
+}   
+.promo_title #pl2{
+  
+    font-size: 18px;
+    float: center;
+    margin-left: 140px;
+    margin-right: 50px;
+    margin-top: 2px;
+    color: #7a563e;
+    max-height: 100%;
+}
+#promoimg{
+    float: center;
+    height:100%;
+    width: 100%;
+    border-radius: 30%;
+}
+
+
+/*======INTERM BANNERL=======*/
+/*============================
+==============================
+============================== */
+
+.interm_banner{
+    background-color: transparent;
+   margin-top: 30px;
+   margin-left: auto;
+   margin-right: auto;
+   width: 95%;
+   height: 80px;
+   border-bottom-style: solid;
+   border-color: #bfd8a6;
+   border-width: 5px;
+
+}
+#interm_text{
+    
+    color:#bfd8a6;
+    font-size: 50px;
+    padding-left: 40px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    max-height: 90%;
+}
+
+
+/*======BOOKS CAROUSEL=======*/
+/*============================
+==============================
+============================== */
+
+.slider{
+    background-color: transparent;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    height: 550px;
+
+}
+.mySlides{
+  
+   background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin:auto;
+    width: 95%;
+    height: 450px;
+}
+.book_promo{
+    background-color:#bfd8a6;
+    width: 23%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 7px;
+    border-radius: 10%;
+}
+.book_promo:hover{
+    background-color:#92ab87;
+}
+.book_img{
+    height:65%;
+    width: 100%;
+   
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.book_descr{
+    position: relative;
+    height: 30%;
+    max-height:160px;
+    max-width: 100%;
+    padding-bottom: 5px;
+}
+#descr{
+    position: absolute;
+   max-width: 250px;
+    font-size: 16px;
+    color: #573b29;
+    text-align: center;
+    padding-left: 19px;
+    padding-top: 17px;
+    padding-bottom: 4px;
+    word-wrap: break-word;
+    display: block;
+}
+#carousel_book{
+    position: relative;
+    height: 100%;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;  
+    border-radius: 5%;    
+}
+.button_container{
+    height:40px;
+    max-width: 13%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7px;
+    display:flex;
+    justify-content: center;
+
+}
+.button_left{
+    float:left;
+    margin: 5px 10px 5px;
+    height: 30px;
+    width: 60px;
+}
+.button_right{
+    float:right;
+    margin: 5px 10px 5px;
+    height: 30px;
+    width: 60px;
+}
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 10px;
+    background-color: #bfd8a6;
+    border-radius: 50%;
+    display: inline-block;
+  }
+.active, .dot:hover {
+    background-color: #92ab87;
+}
+.button_left, .button_right{
+    background-color: #bfd8a6;
+}
+.button_left:hover, .button_right:hover{
+    background-color: #e4d3ca;
+}
+.fade {
+    animation-name: fade;
+    animation-duration: 2s;
+  }
+  
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+
+
+/*======ABOUT CONTAINER=======*/
+/*============================
+==============================
+============================== */
+
+.about_container{
+    position: relative;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 85%;
+    height: 500px;
+    border-radius: 5%;
+     
+ }
+
+ #abimg{
+    position: relative;
+    height: 100%;
+    width: 97%;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 70%;
+    border-radius: 10%;
+    border-style: double;
+    border-color: #bfd8a6;
+    border-width: 15px;
+ }
+ .about_text {
+    position: absolute;
+    height: 100%;
+    width: 80%;
+    float: unset;
+    margin-left: 10%;
+    margin-right: 10%;
+  z-index:800;
+ 
+}
+.about_text p{
+    color:#e6efdc;
+    background-color: #536949e1;
+    text-align: center;
+    width: 90%;
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 30%;
+}
+.about_text a .btn{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #536949;
+    color: #bfd8a6;
+    font-size: 16px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: solid;
+    font-weight: 700;
+  }
+  .about_text a .btn:hover {
+    background-color: #bfd8a6;
+    color: #536949;
+ 
+  }
+
+  .material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 50px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+ 
+    -webkit-font-smoothing: antialiased;
+}
+
+
+/*======FOOTER=======*/
+/*============================
+==============================
+============================== */
+
+.footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 0;
+    background-color: #536949ed;
+}
+.footer_address{
+    width:28%;
+    height:80%;
+    margin: 10px;
+}
+.footer_address p{
+    font-size: 20px;
+    color: #bfd8a6;
+    max-height: fit-content;
+    margin-top: 30px;
+    margin-bottom: auto;
+    max-width: 80%;
+
+}
+.footer_quick{
+    width:25%;
+    height:80%;
+    margin: 20px;
+    padding-left: 20px;
+
+}
+.footer_quick h2{
+    color:#bfd8a6;
+    font-size: 25px;
+    text-decoration: underline;
+}
+.footer_quick ul, a{
+    color:#bfd8a6;
+    font-size: 20px;  
+    padding-top: 0;
+
+}
+.footer_logo{
+    width: 30%;
+    height:70%;
+    padding-right: 20px;
+}
+.footer_quick a:hover{
+    color:#adc0a5;
+}
+.footer_logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+/*======ABOUT PAGE=======*/
+/*============================
+==============================
+============================== */
+
+.book_banner{
+    width:100%;
+    height: 500px;
+}
+.book_banner img{
+    width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+
+
+/*======ABOUT BUBBLES=======*/
+/*============================
+==============================
+============================== */
+.about_bubble{
+    background-color:#bfd8a6;
+    width: 30%;
+    height: 90%;
+    margin: 7px;
+    border-radius: 45%;
+}
+
+.about_descr{
+    height: 70%;
+    width: 90%;
+    padding: 70px 10px;
+    margin: auto;
+}
+#abdescr{
+    display: block;
+    width: 90%;
+    height: 80%;
+    font-size: 18px;
+    color: #573b29;
+    text-align: center;
+    word-wrap: break-word;
+    padding-left: 5%;
+    padding-top: 10%;
+}
+#bubble_img{
+  
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 45%;
+}
+
+.about_container2{
+    position: relative;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 200px;
+    border-radius: 5%;
+
+     
+ }
+ #about2{
+    font-size: 35px;
+ }
+
+
+
+/*======CONTACT PAGE=======*/
+/*============================
+==============================
+============================== */
+
+ /* Style inputs with type="text", select elements and textareas */
+input[type=text], input[type=password], select, textarea {
+    width: 100%; 
+    padding: 12px;
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+
+  input[type=submit] {
+    background-color: #536949;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+
+  input[type=submit]:hover {
+    background-color: #779669;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    width: 90%;
+    border-radius: 5px;
+    background-color: #bfd8a6;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+
+  /*======BOOKS TABLE=======*/
+/*============================
+==============================
+============================== */
+
+table {
+    margin: 0 auto;
+    font-size: large;
+    border: 1px solid black;
+}
+
+h1 {
+    text-align: center;
+    color: #006600;
+    font-size: xx-large;
+}
+
+td {
+    background-color: #bfd8a6;
+    border: 1px solid black;
+}
+
+th,
+td {
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+td {
+    font-weight: lighter;
+}
+tr{
+    height: 70px;
+}
+#row_cover{
+    width: 10%;
+}
+#table_img{
+    width:100%;
+    height: 100%;
+    display: block;
+}
+#row_description{
+    width:33%;
+}
+#row_title{
+    width: 23%;
+}
+#row_author{
+    width: 17%;
+}
+
+
+ /*======LOGIN PAGE=======*/
+/*============================
+==============================
+============================== */
+.login_btn{
+    background-color: #536949;
+    color: white;
+    font-size: 13px;
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 6%;
+    text-align: center;
+    text-decoration: solid;
+  
+  }
+  .login_btn:hover{
+    color: #bfd8a6;
+    background-color: #779669;
+  }
+  .interm_banner .login_btn{
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+  float: right;
+  }
+  .interm_banner .login_btn:hover{
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+  float: right;
+  color:#536949;
+  background-color: #adc0a5;
+  }
+  #btn_banner{
+    border-style: none;
+  }
+
+.btn{
+    background-color: #536949;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;   
+}
+.btn:hover{
+    background-color: #779669;
+}
